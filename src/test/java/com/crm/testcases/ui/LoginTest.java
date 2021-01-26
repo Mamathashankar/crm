@@ -17,7 +17,7 @@ public class LoginTest {
 		} else {
 			System.out.println(String.format("wrong:%s",expectedtitle,actualtitle));
 		}
-
+System.out.println("3");
 		driver.quit();
 	}
 }
